@@ -1,10 +1,10 @@
 var Twitter = require('twitter');
 
 var config = {
-    consumer_key: process.env.CONSUMER_KEY || 'b1gOMlJvcLnBFTYp9Tk83XDyX',
-    consumer_secret: process.env.CONSUMER_SECRET || 'sqRrhyCTtJtkOmYCD39CPsPNdEW6lmQ3y6ZTb8oLzg3Qfcz0Vs',
-    access_token_key: process.env.ACCESS_TOKEN || '634865853-zAa62b5KXTf7oTend1GmEiEYoKLJWTvuNlhMSFJr',
-    access_token_secret: process.env.ACCESS_SECRET || 'GhyUV3zdLvWUv1tWm1CyfE3RuRc6GIdAfzHCEegx9sags'
+    consumer_key: process.env.CONSUMER_KEY,
+    consumer_secret: process.env.CONSUMER_SECRET,
+    access_token_key: process.env.ACCESS_TOKEN,
+    access_token_secret: process.env.ACCESS_SECRET
 };
 
 var client = new Twitter(config);
