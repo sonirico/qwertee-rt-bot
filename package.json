@@ -17,6 +17,6 @@
     "url": "https://github.com/sonirico/qwertee-rt-bot/issues"
   },
   "dependencies": {
-    "twitter": "^1.7.1"
+    "twit": "^2.2.9"
   }
 }
